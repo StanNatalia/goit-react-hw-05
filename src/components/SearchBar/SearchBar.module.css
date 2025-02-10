@@ -9,20 +9,26 @@
 .btn {
   color: #ffffff;
   background: none;
-  width: 100px;
-  height: 40px;
+  font-size: 30px;
+  width: 200px;
   border: 1px solid #ffffff;
   border-radius: 5px;
   display: flex;
   justify-content: center;
-
   align-items: center;
+  transition: transform 0.5s background-color 0.5s, color 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .input {
-  width: 380px;
+  width: 800px;
   height: 1.5em;
-  font-size: 20px;
+  font-size: 40px;
   outline: none;
   border-radius: 6px;
   border: none;
