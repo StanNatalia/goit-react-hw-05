@@ -49,6 +49,14 @@ a {
 
 button {
   cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
 }
 
 img {
