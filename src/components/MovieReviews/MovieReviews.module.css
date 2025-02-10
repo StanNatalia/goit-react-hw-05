@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 40px;
+  padding: 30px 20px;
+}
+
+.item {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+  border: 1px solid white;
+  padding: 15px 20px;
+}
+
+.author {
+  font-weight: bold;
+  color: white;
+}
+
+.revies {
+  color: white;
+}
+
+.noRevies {
+  font-weight: bolt;
+  font-size: 20px;
+  color: white;
+}

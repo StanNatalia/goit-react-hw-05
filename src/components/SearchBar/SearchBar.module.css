@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.btn {
+  color: #ffffff;
+  background: none;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.input {
+  width: 380px;
+  height: 1.5em;
+  font-size: 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+  padding-left: 20px;
+  color: #1d1d1d;
+  &::placeholder {
+    color: #808080;
+  }
+}

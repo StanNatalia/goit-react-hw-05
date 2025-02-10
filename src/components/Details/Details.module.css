@@ -1,0 +1,36 @@
+.container {
+  background-color: rgb(0, 0, 0);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.span {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
