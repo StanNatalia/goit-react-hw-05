@@ -9,7 +9,7 @@
 }
 
 .img {
-  width: 200px;
+  width: 800px;
   height: auto;
   border-radius: 8px;
   border: 1px solid white;
@@ -19,18 +19,18 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 60px;
 }
 
 .info {
   color: white;
-  font-size: 14px;
+  font-size: 40px;
   line-height: 1.5;
 }
 
 .span {
   color: white;
-  font-size: 14px;
+  font-size: 40px;
   font-weight: bold;
   text-decoration: underline;
 }
