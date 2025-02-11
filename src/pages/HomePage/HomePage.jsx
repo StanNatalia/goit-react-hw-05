@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getMovies } from "../../services/api";
-import MoviesList from "../../components/MoviesList/MoviesList";
+import MoviesList from "../../components/MovieList/MovieList";
 import { PropagateLoader } from "react-spinners";
 import css from "./HomePage.module.css";
 import Error from "/src/components/Error/Error";

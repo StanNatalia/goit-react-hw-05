@@ -9,8 +9,8 @@
 .btn {
   color: #ffffff;
   background: none;
-  font-size: 30px;
-  width: 200px;
+  font-size: 25px;
+  width: 150px;
   border: 1px solid #ffffff;
   border-radius: 5px;
   display: flex;
@@ -26,9 +26,9 @@
 }
 
 .input {
-  width: 800px;
+  width: 500px;
   height: 1.5em;
-  font-size: 40px;
+  font-size: 25px;
   outline: none;
   border-radius: 6px;
   border: none;

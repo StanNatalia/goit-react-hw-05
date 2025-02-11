@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Navigation from "./components/Navigation/Navigation";
 import NotFound from "./pages/NotFoundPage/NotFoundPage";
 import { lazy, Suspense } from "react";
 import css from "./App.module.css";
@@ -22,7 +22,7 @@ const MovieReviews = lazy(() =>
 function App() {
   return (
     <main className={css.wrapper}>
-      <Header />
+      <Navigation />
       <Suspense fallback={<div className={css.suspense}>Loading page...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
