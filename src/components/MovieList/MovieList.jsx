@@ -10,7 +10,7 @@ const MoviesList = ({ movies }) => {
       <ul className={css.itemWrapper}>
         {movies.map(({ id, title, poster_path }) => (
           <li key={id} className={css.tumb}>
-            <Link to={`/movies/${id}`} state={location}>
+            <Link to={`/movies/${id}`} state={{ from: location }}>
               <img src={`${imgUrl}${poster_path}`} alt={title} />
             </Link>
           </li>
